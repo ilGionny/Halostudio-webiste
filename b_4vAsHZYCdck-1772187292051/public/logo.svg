@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <mask id="cutout">
+      <circle cx="100" cy="100" r="100" fill="white"/>
+      <!-- Rounded square cutout -->
+      <rect x="40" y="30" width="130" height="140" rx="28" ry="28" fill="black"/>
+      <!-- Gap/channel on the left connecting to outside -->
+      <rect x="0" y="70" width="55" height="60" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="currentColor" mask="url(#cutout)"/>
+</svg>

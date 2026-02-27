@@ -44,11 +44,10 @@ export default function Home() {
           className="flex items-center gap-2 md:transition-transform md:hover:scale-105"
         >
           <img 
-            src="/logo-bianco.webp" 
+            src="/logo.svg" 
             alt="Halo Studio Logo" 
             className="h-8 w-8 transition-all duration-300 md:hover:scale-110 sm:h-10 sm:w-10"
           />
-          <span className="font-sans text-base font-semibold tracking-tight text-foreground sm:text-xl">Halo Studio</span>
         </button>
 
         <div className="hidden items-center gap-8 md:flex">
